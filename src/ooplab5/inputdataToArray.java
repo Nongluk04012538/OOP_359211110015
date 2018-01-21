@@ -30,7 +30,8 @@ public class InputDataToArray {
     }
 
 
-
+    public InputDataToArray() {
+    }
 
     private static void inputData(int[] number, int length) {
         Scanner scanner = new Scanner(System.in);
