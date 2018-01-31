@@ -17,6 +17,7 @@ public class mySuperCar {
         System.out.println(car1.toString());
 
 
+
         //user assign data to object
         SuperCar car3 = new SuperCar();
         car3 = inputData(car3);
