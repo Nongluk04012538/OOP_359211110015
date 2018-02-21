@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.Buffer;
 import java.util.Scanner;
+
 public class TestInput {
 
     public  static  void  main (String[] args) throws IOException {
@@ -14,6 +15,7 @@ public class TestInput {
         //  BufferedReader
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
         // Input Data by using BufferedReader
 
         System.out.println("What is yout name?: ");
@@ -22,6 +24,8 @@ public class TestInput {
         System.out.println("How old are you?: ");
         int age = Integer.parseInt(reader.readLine());
         System.out.println("You are "+age+"years old. ");
+
+
         //Scanner
 
         Scanner scanner = new Scanner(System.in);
@@ -31,16 +35,5 @@ public class TestInput {
         System.out.println("What is your weight?: ");
         double weight = scanner.nextDouble();
         System.out.println("You weight: "+weight);
+
     }//main
-
-
-
-
-
-
-
-
-}// class
-
-
-
