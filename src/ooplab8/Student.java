@@ -1,12 +1,14 @@
 package ooplab8;
+
 import java.util.Date;
 
-public class Student extends Person  {
-    private String id;
-    private String program;
 
-    public Student(String name, String gander, String dateOfBirth, String age, String program) {
-        super(name, gander, dateOfBirth, age);
+public class Student extends Person {
+    private  String id;
+    private  String program;
+
+    public Student(String name, String gender, String dateofBirth, int agel, String id, String program) {
+        super(name, gender, dateofBirth, agel);
         this.id = id;
         this.program = program;
     }
@@ -16,7 +18,7 @@ public class Student extends Person  {
         return "Student{" +
                 "id='" + id + '\'' +
                 ", program='" + program + '\'' +
-                '}';
+                "} " + super.toString();
     }
 
     public String getId() {
@@ -34,5 +36,4 @@ public class Student extends Person  {
     public void setProgram(String program) {
         this.program = program;
     }
-}//class
-สิ้นสุดการสนทนาผ่านแชท
+}
